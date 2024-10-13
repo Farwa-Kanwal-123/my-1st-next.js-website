@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div>
       <title>My 1st Website</title>
-      <header className="container bg-green-600 text-white p-4 flex align-center justify-between rounded-md bg-fixed">
+      <header className="container bg-green-600 text-white p-2 flex align-center justify-between rounded-sm bg-fixed">
         {/* Logo */}
 
         <div className="text-3xl font-bold text-white flex">
@@ -27,16 +27,16 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href={"/components/about"}
+              href={"./about"}
               className="hover:bg-white hover:text-green-500 p-2 rounded-md"
             >
-              {" "}
+            
               About
             </Link>
           </li>
           <li>
             <Link
-              href={"/components/contact"}
+              href={"/contact"}
               className="hover:bg-white hover:text-green-500 p-2 rounded-md"
             >
               {" "}

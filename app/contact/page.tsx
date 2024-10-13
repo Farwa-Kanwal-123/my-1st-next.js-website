@@ -1,10 +1,10 @@
 import Link from "next/link";
 export default function Contact() {
   return (
-    <div className="w-full h-screen flex justify-center items-center border-teal-950 bg-green-200 ">
-      <div className=" bg-green-500 text-white p-6  rounded-lg w-[50vw]">
+    <div className="w-full h-screen flex justify-center items-center border-teal-950 ">
+      <div className=" bg-green-200 text-white p-6 rounded-lg w-[50vw]">
         <form className=" flex flex-col space-y-4 space-x-2 ">
-          <h1 className="font-bold bg-green-600 p-4 text-5xl text-center rounded-md">
+          <h1 className="font-bold bg-green-400 p-4 text-5xl text-center rounded-md">
             Contact Form
           </h1>
 
@@ -23,7 +23,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="bg-green-600 p-2 rounded-md text-white text-lg font-semibold cursor-pointer hover:bg-green-400 hover:font-semibold transition-all duration-100 "
+            className="bg-green-400 p-2 rounded-md text-white text-lg font-semibold cursor-pointer hover:bg-green-500 hover:font-semibold transition-all duration-100 "
           >
             Submit
           </button>
@@ -31,13 +31,15 @@ export default function Contact() {
           <div className="flex justify-center gap-4 mt-3">
             <Link
               href={"/"}
-              className="bg-green-600 rounded-md p-1 hover:bg-white hover:text-green-500 transition-all duration-100"
+              className="bg-green-400 rounded-md p-1 hover:bg-white hover:text-green-500 
+              hover:font-bold transition-all duration-100"
             >
               Home
             </Link>
             <Link
-              href={"/components/about"}
-              className="bg-green-600 rounded-md p-1  hover:bg-white hover:text-green-500 transition-all duration-100"
+              href={"/about"}
+              className="bg-green-400 rounded-md p-1  hover:bg-white hover:text-green-500 
+              hover:font-bold transition-all duration-100"
             >
               About
             </Link>
