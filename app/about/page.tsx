@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function About() {
   return (
-    <main className="w-full h-screen font-mono bg-gray-200 flex p-5 ">
+    <main className="w-full h-screen font-mono bg-gray-200 flex items-center ">
       <section className="flex w-[80vw] h-[70vh] justify-center gap-12 ml-20">
         <div className=" w-[450px] h-[379px] bg-gray-100">
           <h1 className="font-bold text-2xl text-center text-white bg-green-500 rounded-sm p-2">
@@ -40,7 +40,7 @@ export default function About() {
             width={350}
             height={460}
             objectFit="cover"
-            className="rounded-sm border-green-300 border"
+            className="rounded-sm border-green-300 border-2"
           />
         </div>
       </section>

@@ -4,7 +4,7 @@ import Contact from "./contact/page";
 export default function Home() {
   return (
     <main>
-      <section className="w-full h-screen bg-[url('/images/p1.jpg')] bg-center bg-cover bg-fixed flex justify-center items-center">
+      <section className="w-full h-screen bg-[url('/images/new-green.jpg')] bg-center bg-cover bg-fixed flex justify-center items-center">
         <div
           className="flex flex-col
       items-center justify-center text-white gap-y-14 font-bold text-xl font-serif "
