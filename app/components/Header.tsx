@@ -13,7 +13,7 @@ export default function Header() {
         </div>
 
         {/* Link */}
-        <div className="mr-4">
+        <div className="pr-4">
         <ul className="flex align-center gap-3 font-bold p-1.5">
           <li>
             <Link
