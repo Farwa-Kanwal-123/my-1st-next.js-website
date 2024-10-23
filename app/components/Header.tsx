@@ -3,7 +3,7 @@ import { GiFruitTree } from "react-icons/gi";
 export default function Header() {
   return (
     <div>
-      <header className="container bg-green-600 text-white p-2 flex align-center justify-between rounded-sm bg-fixed">
+      <header className="w-[full] bg-green-600 text-white p-2 flex align-center justify-between rounded-sm bg-fixed">
         {/* Logo */}
 
         <div className="text-3xl font-bold text-white flex">
