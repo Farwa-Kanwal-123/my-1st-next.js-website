@@ -11,7 +11,7 @@ export default function Home() {
         >
           <div className="">WELCOME TO THE GREENSTORE </div>
           <div>
-            <h1 className="text-4xl">Lets Bring the Spring to Your Home </h1>
+            <h1 className="text-4xl">Let&#39;s Bring the Spring to Your Home </h1>
           </div>
           <span>
             <button className=" bg-green-800 text-white hover:bg-white hover:text-green-500 p-2 rounded-xl">
